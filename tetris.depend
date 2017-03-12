@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1489279457 source:d:\c\tetris\grid.c
+	"grid.h"
+	"pieces.h"
+
+1489276402 d:\c\tetris\grid.h
+	"common.h"
+
+1489275081 d:\c\tetris\common.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<windows.h>
+	<stdint.h>
+	<time.h>
+	<unistd.h>
+
+1489278629 source:d:\c\tetris\keys.c
+	<conio.h>
+	"keys.h"
+
+1489270389 d:\c\tetris\keys.h
+	"common.h"
+
+1489279436 source:d:\c\tetris\main.c
+	"common.h"
+	"draw.h"
+	"grid.h"
+	"keys.h"
+	"pieces.h"
+	"timer.h"
+
+1489276989 source:d:\c\tetris\pieces.c
+	<time.h>
+	<math.h>
+	"pieces.h"
+
+1489276990 d:\c\tetris\pieces.h
+	"common.h"
+
+1489275364 source:d:\c\tetris\draw.c
+	"draw.h"
+	"pieces.h"
+	"grid.h"
+
+1489266596 d:\c\tetris\draw.h
+	"common.h"
+
+1489273244 d:\c\tetris\timer.h
+	"common.h"
+
+1489273162 source:d:\c\tetris\timer.c
+	"timer.h"
+	"grid.h"
+
